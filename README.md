@@ -11,6 +11,8 @@ Configuration rules to ensure your CSS is compliant with the [WordPress CSS Codi
 $ npm install stylelint-config-wordpress
 ```
 
+* _PostCSS `5.x` or `4.x` compatibility_ - versions `1.0.0+` of the linter are compatible with PostCSS `5.0.4+`. Whereas, versions `0.2.0 and below` are compatible with PostCSS `4.x`.
+
 ## Usage
 
 Require the config and use it for stylelint's option. For example, using the JS API approach:
