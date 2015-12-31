@@ -15,6 +15,7 @@
     "type": "git",
     "url": "https://github.com/stylelint/stylelint-config-wordpress.git"
   },
+  "homepage": "https://github.com/stylelint/stylelint-config-wordpress",
   "bugs": "https://github.com/stylelint/stylelint-config-wordpress/issues",
   "main": "index.js",
   "files": [
