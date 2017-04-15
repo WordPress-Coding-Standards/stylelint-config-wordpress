@@ -17,14 +17,14 @@ module.exports = {
     } ],
     "at-rule-empty-line-before": [
       "always", {
-        "ignoreAtRules": [ "else" ]
-      }
+        "ignoreAtRules": ["else"],
+      },
     ],
     "block-opening-brace-space-before": "always",
     "block-closing-brace-newline-after": [
       "always", {
-        "ignoreAtRules": [ "if", "else" ]
-      }
+        "ignoreAtRules": [ "if", "else" ],
+      },
     ],
     "at-rule-name-space-after": "always",
     "rule-non-nested-empty-line-before": "always",
