@@ -1,3 +1,7 @@
+# HEAD
+
+-   Added: `declaration-property-unit-whitelist` rule to enforce unitless `line-height` values.
+
 # 10.0.2
 
 -   Added: Added `import` to `ignoreAtRules` option in `at-rule-empty-line-before` rule for SCSS config.
