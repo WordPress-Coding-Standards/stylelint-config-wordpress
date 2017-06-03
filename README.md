@@ -1,4 +1,6 @@
 # stylelint-config-wordpress
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/WordPress-Coding-Standards/stylelint-config-wordpress.svg)](https://greenkeeper.io/)
 [![NPM version](http://img.shields.io/npm/v/stylelint-config-wordpress.svg)](https://www.npmjs.org/package/stylelint-config-wordpress) [![Build Status](https://api.travis-ci.org/WordPress-Coding-Standards/stylelint-config-wordpress.svg?branch=master)](https://travis-ci.org/WordPress-Coding-Standards/stylelint-config-wordpress) [![Build status](https://ci.appveyor.com/api/projects/status/e5bv7cgn83ci69lo?svg=true)](https://ci.appveyor.com/project/WordPress-Coding-Standards/stylelint-config-wordpress)
 
 > WordPress shareable config for stylelint.
