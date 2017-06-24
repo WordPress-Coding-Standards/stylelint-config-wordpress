@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "eslint": "^3.19.0",
-    "eslint-plugin-wordpress": "git@github.com:WordPress-Coding-Standards/eslint-plugin-wordpress.git#master",
+    "eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git",
     "eslint-plugin-jest": "^20.0.0",
     "jest": "^20.0.0",
     "npm-run-all": "^4.0.0",
