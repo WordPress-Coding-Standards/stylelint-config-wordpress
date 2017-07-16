@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`001 1`] = `
+Array [
+  Object {
+    "deprecations": Array [],
+    "errored": undefined,
+    "ignored": undefined,
+    "invalidOptionWarnings": Array [],
+    "source": "001/stylesheet.css",
+    "warnings": Array [],
+  },
+]
+`;
