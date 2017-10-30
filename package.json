@@ -69,8 +69,7 @@
     ],
     "testEnvironment": "node",
     "testMatch": [
-      "<rootDir>/__tests__/*.js",
-      "<rootDir>/__tests__/**/?(*.)test.js"
+      "<rootDir>/__tests__/*.js"
     ],
     "verbose": true
   },
