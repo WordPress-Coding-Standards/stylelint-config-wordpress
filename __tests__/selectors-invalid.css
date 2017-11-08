@@ -27,5 +27,5 @@ input[type='text'] { /* Should be [type="text"] */
 }
 
 .selector:hover {
-  color: #000;
+	color: #000;
 }
