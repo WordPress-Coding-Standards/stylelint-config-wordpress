@@ -45,9 +45,9 @@ describe( 'flags warnings with invalid selectors scss', () => {
 		) );
 	});
 
-	it( 'flags four warnings', () => {
+	it( 'flags six warnings', () => {
 		return result.then( data => (
-			expect( data.results[0].warnings.length ).toBe( 4 )
+			expect( data.results[0].warnings.length ).toBe( 6 )
 		) );
 	});
 
