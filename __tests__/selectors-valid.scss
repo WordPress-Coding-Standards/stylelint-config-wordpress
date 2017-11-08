@@ -31,7 +31,7 @@ p {
 p {
 
 	&,
-	.foo::hover {
+	.foo::after {
 		color: #000;
 	}
 }

@@ -26,6 +26,6 @@ input[type='text'] { /* Should be [type="text"] */
 	color: #000;
 }
 
-.selector:hover {
+.selector:after {
 	color: #000;
 }

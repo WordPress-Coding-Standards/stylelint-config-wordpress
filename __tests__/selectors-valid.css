@@ -6,6 +6,6 @@ input[type="text"] {
 	line-height: 1.1;
 }
 
-.selector::hover {
+.selector::after {
 	color: #000;
 }
