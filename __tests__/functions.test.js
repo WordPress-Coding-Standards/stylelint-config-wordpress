@@ -45,39 +45,15 @@ describe( 'flags warnings with invalid functions css', () => {
 		) );
 	});
 
-	it( 'flags three warnings', () => {
+	it( 'flags correct number of warnings', () => {
 		return result.then( data => (
 			expect( data.results[0].warnings ).toHaveLength( 1 )
 		) );
 	});
 
-	it( 'correct first warning text', () => {
+	it( 'snapshot matches warnings', () => {
 		return result.then( data => (
-			expect( data.results[0].warnings[0].text ).toBe( 'Expected "Calc" to be "calc" (function-name-case)' )
-		) );
-	});
-
-	it( 'correct first warning rule flagged', () => {
-		return result.then( data => (
-			expect( data.results[0].warnings[0].rule ).toBe( 'function-name-case' )
-		) );
-	});
-
-	it( 'correct first warning severity flagged', () => {
-		return result.then( data => (
-			expect( data.results[0].warnings[0].severity ).toBe( 'error' )
-		) );
-	});
-
-	it( 'correct first warning line number', () => {
-		return result.then( data => (
-			expect( data.results[0].warnings[0].line ).toBe( 4 )
-		) );
-	});
-
-	it( 'correct first warning column number', () => {
-		return result.then( data => (
-			expect( data.results[0].warnings[0].column ).toBe( 9 )
+			expect( data.results[0].warnings ).toMatchSnapshot()
 		) );
 	});
 });
