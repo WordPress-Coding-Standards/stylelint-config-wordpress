@@ -59,7 +59,7 @@
 		"stylelint-find-rules": "^2.0.0"
 	},
 	"peerDependencies": {
-		"stylelint": "^9.5.0"
+		"stylelint": "^9.5.0 || ^10.0.0"
 	},
 	"scripts": {
 		"commitmsg": "commitlint -e $GIT_PARAMS",
