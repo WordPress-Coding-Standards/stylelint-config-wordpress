@@ -82,17 +82,7 @@
 			"commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
 		}
 	},
-	"jest": {
-		"roots": [
-			"__tests__"
-		],
-		"testEnvironment": "node",
-		"testMatch": [
-			"**/?(*.)(spec|test).js"
-		],
-		"verbose": true
-	},
-	"npmpackagejsonlint": {
+	"npmPackageJsonLintConfig": {
 		"extends": "@wordpress/npm-package-json-lint-config",
 		"rules": {
 			"valid-values-license": [
