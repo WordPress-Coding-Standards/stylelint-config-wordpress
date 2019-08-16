@@ -57,16 +57,19 @@
 		"stylelint": "^9.5.0 || ^10.1.0"
 	},
 	"scripts": {
+		"check-engines": "wp-scripts check-engines --package",
+		"check-licenses": "wp-scripts check-licenses --production",
 		"dry-release": "npmpub --dry --verbose",
-		"jest": "jest",
-		"lint:js": "eslint . --ignore-path .gitignore",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
 		"lint:md": "remark . --quiet --frail",
-		"lint:pkg-json": "npmPkgJsonLint .",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
 		"lint": "npm-run-all --parallel lint:*",
 		"pretest": "npm run lint",
 		"release": "npmpub --verbose",
 		"stylelint-find-unused-rules": "stylelint-find-rules --config index.js",
-		"test": "jest",
+		"test:unit": "wp-scripts test-unit-js",
+		"test": "test:unit",
 		"watch": "jest --watch"
 	},
 	"commitlint": {
