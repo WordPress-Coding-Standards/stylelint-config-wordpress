@@ -77,6 +77,12 @@
 			"@commitlint/config-conventional"
 		]
 	},
+	"eslintConfig": {
+		"root": true,
+		"extends": [
+			"plugin:@wordpress/eslint-plugin/recommended"
+		]
+	},
 	"husky": {
 		"hooks": {
 			"commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
