@@ -14,16 +14,22 @@ cache:
     - $HOME/.npm
     - node_modules
 
-node_js:
-  - '10'
-  - '12'
-
 jobs:
   include:
+    - os: linux
+      node_js: '12'
+  include:
+    - os: linux
+      node_js: '10'
+  include:
     - os: windows
+      node_js: '12'
+  include:
+    - os: windows
+      node_js: '10'
 
 before_install:
-  - npm install -g npm@latest
+  - if [[ ("$TRAVIS_OS_NAME" == "linux") ]]; then npm install -g npm@latest; fi
 
 script: npm test
 
