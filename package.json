@@ -54,7 +54,7 @@
 		"stylelint-find-rules": "^2.2.0"
 	},
 	"peerDependencies": {
-		"stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0"
+		"stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0 || ^13.0.0"
 	},
 	"scripts": {
 		"check-engines": "wp-scripts check-engines --package",
