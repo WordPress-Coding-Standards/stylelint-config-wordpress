@@ -46,11 +46,4 @@ describe( 'flags warnings with invalid scss', () => {
 			expect( data.results[ 0 ].warnings ).toHaveLength( 8 )
 		);
 	} );
-
-	// ToDo: Fix snapshot, as results differ between Node.js v10 & v12
-	// it( 'snapshot matches warnings', () => {
-	// 	return result.then( ( data ) => (
-	// 		expect( data.results[ 0 ].warnings ).toMatchSnapshot()
-	// 	) );
-	// } );
 } );
